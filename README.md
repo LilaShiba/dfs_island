@@ -13,7 +13,7 @@ how should we solve this problem? Keep in mind there are a number of ways to go 
 
 **Music**<br>
 I love music.
-[Here's what I've](https://www.youtube.com/watch?v=-UaZDpF3bS0) been programming to lately. Please share your go-to's!
+[Here's what I've](https://www.youtube.com/watch?v=-UaZDpF3bS0) been programming to lately. Please share your go-to's! If you want to work on an open-source js sound project, checkout [p5-sound](https://github.com/processing/p5.js-sound)
 
 <img src='https://i.pinimg.com/736x/86/53/20/865320144640b89e1c6baed9d49785f4.jpg' height="200">
 
