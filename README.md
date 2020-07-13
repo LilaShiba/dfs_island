@@ -1,4 +1,4 @@
-# 🌴Island Problem 🌴
+# 🌴Island Problem: What is Optimal 🌴
 
 *[LeetCode Problem Link](https://leetcode.com/problems/island-perimeter/)*<br>
 Today, we are going to apply a recursive program to solve LeetCode's Island perimeter problem in [O(mn) worst case time complexity](https://en.wikipedia.org/wiki/Big_O_notation). This question is a part of the July Challenge. A great extension is solving the problem iterativly. Feel free to jump ahead or act as a resource for your peers if this is too easy. I can always use the help teaching!
