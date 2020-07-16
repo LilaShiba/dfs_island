@@ -118,7 +118,8 @@ def dfs(self, grid, i, j):
 <a name="dfs"></a>
 
 ## Recurrance: DFS 
-When programming our DFS, we want to make sure that we
+[recursion review via tracing](https://www.youtube.com/watch?v=B3U6LExgevE)<br>
+When programming our [DFS](https://medium.com/basecs/deep-dive-through-a-graph-dfs-traversal-8177df5d0f13), we want to make sure that we
 
 - continue searching until the whole island is searched
 - don't revisit a node
@@ -171,6 +172,7 @@ def dfs(self, grid, i, j):
 ## Extensions 
 | Level  | Link                                                                    | Info                                     |
 |--------|-------------------------------------------------------------------------|------------------------------------------|
+| Easy   | [Post-order tree](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)| Recursion Practice               |
 | Medium | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | Out of many Isle, find the largest       |
 | Medium | [Word Search](https://leetcode.com/problems/word-search/)               | Find a word in a matrix                  |
 | Medium | [Rotten Oranges](https://leetcode.com/problems/rotting-oranges/)        | Google's most asked question this summer |
