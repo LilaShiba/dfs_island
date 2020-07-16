@@ -1,14 +1,12 @@
 # 🌴Island Problem: What is Optimal 🌴
 
 *[LeetCode Problem Link](https://leetcode.com/problems/island-perimeter/)*<br>
-Today, we are going to apply a recursive program to solve LeetCode's Island perimeter problem in [O(mn) worst case time complexity](https://en.wikipedia.org/wiki/Big_O_notation). This question is a part of the July Challenge. A great extension is solving the problem iterativly. Feel free to jump ahead or act as a resource for your peers if this is too easy. I can always use the help teaching!
+Today, we are going to apply a recursive program to solve LeetCode's Island perimeter problem in [O(mn) worst case time complexity](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/lecture-videos/lecture-10-understanding-program-efficiency-part-1/). This question is a part of the July Challenge. A great extension is solving the problem iterativly. Feel free to jump ahead or act as a resource for your peers if this is too easy. I can always use the help teaching!
+
+For more on DFS time complexity, [check this out](https://stackoverflow.com/questions/34816910/complexity-of-a-recursive-dfs)
 
 **I make errors**<br>
 Please call them out as you see them! Typically, my spelling, vairable names, and "approximations" when doing math.
-
-
-**Before we begin**<br>
-how should we solve this problem? Keep in mind there are a number of ways to go about this!
 
 
 **Music**<br>
@@ -16,6 +14,9 @@ I love music.
 [Here's what I've](https://www.youtube.com/watch?v=-UaZDpF3bS0) been programming to lately. Please share your go-to's! If you want to work on an open-source js sound project, checkout [p5-sound](https://github.com/processing/p5.js-sound)
 
 <img src='https://i.pinimg.com/736x/86/53/20/865320144640b89e1c6baed9d49785f4.jpg' height="200">
+
+**Before we begin**<br>
+how should we solve this problem? Keep in mind there are a number of ways to go about this!
 
 ---
 ---
