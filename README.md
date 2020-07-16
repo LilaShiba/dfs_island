@@ -15,8 +15,8 @@ I love music.
 
 <img src='https://i.pinimg.com/736x/86/53/20/865320144640b89e1c6baed9d49785f4.jpg' height="200">
 
-**Before we begin**<br>
-how should we solve this problem? Keep in mind there are a number of ways to go about this!
+**After Solving**<br>
+Is this the best solution? What is OR what could be changed to make this more optimal?
 
 ---
 ---
@@ -35,8 +35,6 @@ how should we solve this problem? Keep in mind there are a number of ways to go 
 <a name="opening"></a>
 ##  🌱Cycle Through Matrix 🌱
 
-The idea here is we want to cycle through the matrix until we find a piece of the island and then run a dfs. I love setting up problems like this by using a helper function to solve/ acutallay do the computation. For example,
-
 ```txt
  loop through the matrix:
     if land:
@@ -45,8 +43,11 @@ The idea here is we want to cycle through the matrix until we find a piece of th
 return False
 ```
 
+The idea here is we want to cycle through the matrix until we find a piece of the island and then run a dfs. I love setting up problems like this by using a helper function to solve/ acutallay do the computation. For example,
 
-> What parameters should the helper function take in if using OOP?
+
+![img](https://img.c4learn.com/2012/04/Multi-Dimensional-Array-in-C-Programming.gif)
+
 
 Take a few minuets to find out how you iterate over a matrix in Python. The answers are below. The idea isn't to bore you with a google search, but to get used to searching stackoverflow. I visit stackof about 3-5 times per day when working. We can't go in-depth here, but resources are linked.
 
@@ -55,6 +56,9 @@ Take a few minuets to find out how you iterate over a matrix in Python. The answ
 - [Further Reading](https://cs.nyu.edu/courses/fall16/CSCI-UA.0101-004/resources/lecture12.pdf)
 
 - More info on [Python Classes](https://www.w3schools.com/python/python_classes.asp)
+
+
+> What parameters should the helper function take in if using OOP?
 
 
 **Iterate through matrix and call helper function**
