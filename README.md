@@ -185,3 +185,112 @@ def dfs(self, grid, i, j):
 
 
 *[Check out this youtube series](https://www.youtube.com/watch?v=TzoDDOj60zE) for a walkthrough of Rotten Oranges* and many other leetcode problems.
+
+---
+---
+
+<details>
+    <summary>Answer in JS 236 ms runtime</summary>
+
+```js
+/**
+ * @param {number[][]} grid
+ * @return {number}
+ */
+var islandPerimeter = function(grid) {
+    for(i = 0; i < grid.length; i++){
+        for(j = 0; j < grid[i].length; j++){
+            if (grid[i][j] == 1){
+                p = dfs(grid, i, j);
+                return p;
+            }
+        }
+    }
+    return 0;
+};
+
+var dfs = function (grid, i, j){
+    if (0 > i || i >= grid.length || 0 > j || j >= grid[0].length){
+        return 1;
+    }
+    if (grid[i][j]==0){
+        return 1;
+    }
+    
+    if (grid[i][j] == 1){
+        grid[i][j] = -1;
+        return dfs(grid, i+1, j) + dfs(grid, i-1, j) + dfs(grid, i, j+1) + dfs(grid, i, j-1);
+    }
+    return 0;
+}
+```
+  </details>
+
+<details>
+    <summary>Answer in Python 660ms runtime</summary>
+
+```python3
+class Solution:
+    def islandPerimeter(self, grid: List[List[int]]) -> int:
+        for x in range(len(grid)):
+            for y in range(len(grid[0])):
+                if grid[x][y] == 1:
+                    p = self.dfs(grid, x, y, 0)
+                    return p
+        return 0
+    
+    
+    def dfs(self, grid, x, y, p):
+        # out of bounds add 1
+        if x < 0 or x > len(grid)-1 or y < 0 or y > len(grid[0])-1:
+            return 1
+        # if o add 1
+        elif grid[x][y] == 0:
+            return 1
+        elif grid[x][y] == -1:
+            return 0
+        else:
+            grid[x][y] = -1
+            return  self.dfs(grid, x+1, y, 1) + self.dfs(grid, x-1, y, 1) + self.dfs(grid, x, y+1, 1) + self.dfs(grid, x, y-1, 1)
+```
+  </details>
+  
+<details>
+    <summary>Answer in Java 11ms runtime </summary>
+
+```java
+class Solution {
+    public int islandPerimeter(int[][] grid) {
+        int count = 0;
+        for(int i=0; i < grid.length; i++){
+            for(int j=0; j < grid[i].length; j++){
+                if(grid[i][j] == 1){
+                    count = dfs(grid, i, j);
+                    return count;
+                }
+            }
+        }
+        return count;
+    }
+    
+    public int dfs(int[][] grid, int i, int j){
+        // out of bounds return 1
+        if (0 > i || i >= grid.length || 0 > j || j >= grid[0].length){
+            return 1;
+        }
+        if (grid[i][j] == 0){
+            return 1;
+        }
+        if (grid[i][j] == 1){
+            grid[i][j] = -1;
+            int d = dfs(grid, i+1, j);
+            int u = dfs(grid, i-1, j);
+            int l = dfs(grid, i, j-1);
+            int r = dfs(grid, i, j+1);
+            return d+u+l+r;
+        }
+        return 0;
+    }
+}
+```
+  </details>
