@@ -3,21 +3,22 @@
 *[LeetCode Problem Link](https://leetcode.com/problems/island-perimeter/)*<br><br>
 Today, we are going to apply a recursive DFS to solve LeetCode's Island perimeter problem in [O(mn) worst case time complexity](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/lecture-videos/lecture-10-understanding-program-efficiency-part-1/). This question is a part of the July Challenge. A great extension is solving the problem iterativly. Feel free to jump ahead or act as a resource for your peers if this is too easy. I can always use the help teaching!
 
-- Understanding the time complexity of a DFS : [stackoverflow](https://stackoverflow.com/questions/34816910/complexity-of-a-recursive-dfs) 
-
-- Time complexity : O(M×N) where M is the number of rows and N is the number of columns.
-
-- Space complexity : O(min(M,N)) because in worst case where the grid is filled with lands, the size of queue can grow up to min(M,N)
+| Question | Source                      |
+|--------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| Time complexity                            | O(M×N) where M is the number of rows and N is the number of columns                                              |
+| Space complexity                           | O(min(M,N)) because in worst case where the grid is filled with lands, the size of queue can grow up to min(M,N) |
+| Understanding the time complexity of a DFS | [stackoverflow](https://stackoverflow.com/questions/34816910/complexity-of-a-recursive-dfs)                      |
 
 **I make errors**<br>
 Please call them out as you see them! Typically, my spelling, vairable names, and "approximations" when doing math.
 
+<img src='https://media.giphy.com/media/mq5y2jHRCAqMo/giphy.gif' height='200'>
 
 **Music**<br>
 I love music.
 [Here's what I've](https://www.youtube.com/watch?v=-UaZDpF3bS0) been programming to lately. Please share your go-to's! If you want to work on an open-source js sound project, checkout [p5-sound](https://github.com/processing/p5.js-sound)
 
-<img src='https://i.pinimg.com/736x/86/53/20/865320144640b89e1c6baed9d49785f4.jpg' height="200">
+<img src='https://media.giphy.com/media/UT5C4hCvmlSzJ7QeQy/giphy.gif' height="200">
 
 **After Solving**<br>
 Is this the best solution? What is optimal || what could be changed to make this more optimal?
@@ -55,11 +56,11 @@ The idea here is we want to cycle through the matrix until we find a piece of th
 
 Take a few minuets to find out how you iterate over a matrix in Python. The answers are below. The idea isn't to bore you with a google search, but to get used to searching stackoverflow. I visit stackof about 3-5 times per day when working. We can't go in-depth here, but resources are linked.
 
-- [Source](https://stackoverflow.com/questions/16548668/iterating-over-a-2-dimensional-python-list)
-
-- [Further Reading](https://cs.nyu.edu/courses/fall16/CSCI-UA.0101-004/resources/lecture12.pdf)
-
-- More info on [Python Classes](https://www.w3schools.com/python/python_classes.asp)
+| Question                | Source                                                                                                   |
+|-------------------------|----------------------------------------------------------------------------------------------------------|
+| In-depth matrix info    | [NYU CS](https://cs.nyu.edu/courses/fall16/CSCI-UA.0101-004/resources/lecture12.pdf)                     |
+| Python OOP              | [Geeks for Geeks](https://www.w3schools.com/python/python_classes.asp)                                   |
+| Iterating over a matrix | [stackoverflow](https://stackoverflow.com/questions/16548668/iterating-over-a-2-dimensional-python-list) |
 
 
 > What parameters should the helper function take in if using OOP?
@@ -89,7 +90,7 @@ def islandPerimeter(self, grid: List[List[int]]) -> int:
 
 <a name="codealong1"></a>
 
-## Where to Start -> Bounds of the Problem:
+## 🤔Where to Start -> Bounds of the Problem 🤔:
 What is this problem actually asking? Meaning,
 
 **Discussion**
