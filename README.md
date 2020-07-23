@@ -127,7 +127,7 @@ def dfs(self, grid, i, j):
 ---
 <a name="dfs"></a>
 
-## Recurrance: DFS 
+## 🚀 Recurrance: DFS 🚀
 [recursion review via tracing](https://www.youtube.com/watch?v=B3U6LExgevE)<br>
 When programming our [DFS](https://medium.com/basecs/deep-dive-through-a-graph-dfs-traversal-8177df5d0f13), we want to make sure that we
 
@@ -169,7 +169,7 @@ def dfs(self, grid, i, j):
 ---
 <a name="debugging"></a>
 
-## Debugging, Tracing, & Optimizing:
+## 🐛 Debugging, Tracing, & Optimizing 🐛:
 
 - Take some time to optimize this program. How can one save space or time?
 - How would you go about debugging this program?
@@ -179,7 +179,7 @@ def dfs(self, grid, i, j):
 ---
 <a name="extension"></a>
 
-## Extensions 
+## 💪 Extensions 💪
 | Level  | Link                                                                    | Info                                     |
 |--------|-------------------------------------------------------------------------|------------------------------------------|
 | Easy   | [Post-order tree](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)| Recursion Practice               |
@@ -189,7 +189,7 @@ def dfs(self, grid, i, j):
 | Medium | [Combo Sum](https://leetcode.com/problems/combination-sum/)             | Generate combos using bfs                |
 
 
-*[Check out this youtube series](https://www.youtube.com/watch?v=TzoDDOj60zE) for a walkthrough of Rotten Oranges* and many other leetcode problems.
+* 📺 [Check out this youtube series](https://www.youtube.com/watch?v=TzoDDOj60zE) for a walkthrough of Rotten Oranges* and many other leetcode problems.
 
 ---
 ---
