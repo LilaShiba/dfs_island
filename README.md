@@ -9,7 +9,6 @@ Today, we are going to apply a recursive DFS to solve LeetCode's Island perimete
 | Question | Source                      |
 |--------------------------------------------|------------------------------------------------------------------------------------------------------------------|
 | Time complexity                            | O(M×N) where M is the number of rows and N is the number of columns                                              |
-| Space complexity                           | O(min(M,N)) because in worst case where the grid is filled with lands, the size of queue can grow up to min(M,N) |
 | Understanding the time complexity of a DFS | [stackoverflow](https://stackoverflow.com/questions/34816910/complexity-of-a-recursive-dfs)                      |
 
 **I make errors**<br>
