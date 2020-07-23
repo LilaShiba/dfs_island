@@ -1,9 +1,13 @@
 # 🌴Island Problem: What is Optimal 🌴
 
-*[LeetCode Problem Link](https://leetcode.com/problems/island-perimeter/)*<br>
-Today, we are going to apply a recursive program to solve LeetCode's Island perimeter problem in [O(mn) worst case time complexity](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/lecture-videos/lecture-10-understanding-program-efficiency-part-1/). This question is a part of the July Challenge. A great extension is solving the problem iterativly. Feel free to jump ahead or act as a resource for your peers if this is too easy. I can always use the help teaching!
+*[LeetCode Problem Link](https://leetcode.com/problems/island-perimeter/)*<br><br>
+Today, we are going to apply a recursive DFS to solve LeetCode's Island perimeter problem in [O(mn) worst case time complexity](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/lecture-videos/lecture-10-understanding-program-efficiency-part-1/). This question is a part of the July Challenge. A great extension is solving the problem iterativly. Feel free to jump ahead or act as a resource for your peers if this is too easy. I can always use the help teaching!
 
-For more on DFS time complexity, [check this out](https://stackoverflow.com/questions/34816910/complexity-of-a-recursive-dfs)
+The time complexity is that of a DFS, [source 1](https://stackoverflow.com/questions/34816910/complexity-of-a-recursive-dfs), 
+
+- Time complexity : O(M×N) where M is the number of rows and N is the number of columns.
+
+- Space complexity : O(min(M,N)) because in worst case where the grid is filled with lands, the size of queue can grow up to min(M,N)
 
 **I make errors**<br>
 Please call them out as you see them! Typically, my spelling, vairable names, and "approximations" when doing math.
@@ -16,7 +20,7 @@ I love music.
 <img src='https://i.pinimg.com/736x/86/53/20/865320144640b89e1c6baed9d49785f4.jpg' height="200">
 
 **After Solving**<br>
-Is this the best solution? What is OR what could be changed to make this more optimal?
+Is this the best solution? What is optimal || what could be changed to make this more optimal?
 
 ---
 ---
@@ -25,7 +29,7 @@ Is this the best solution? What is OR what could be changed to make this more op
 
 | Timing | Type | Topic |
 | --- | --- | --- |
-| 05 min | [Cycle Through Matrix](#opening) |I,J vs. X,Y  |
+| 05 min | [Setting up the Helper Method](#opening) |OOP Setup  |
 | 10 min | [Where to Start](#codealong1)  | Bounds of the problem|
 | 10 min | [Recurrence](#dfs)  | What drives this DFS?|
 | 05 min | [Debugging](#debugging) |Tracing a program |
@@ -33,7 +37,7 @@ Is this the best solution? What is OR what could be changed to make this more op
 
 
 <a name="opening"></a>
-##  🌱Cycle Through Matrix 🌱
+##  🌱Setting up the Helper Method 🌱
 
 ```txt
  loop through the matrix:
